@@ -1,0 +1,13 @@
+TITLE: Notes About the Factory Method Pattern and this implementation
+
+IMPLEMENTATION NOTES:
+- This version of the pattern is a parameterized version for creating multiple types of products from the factory
+
+PRIMARY USE(S) FOR THIS PATTERN:
+- Allows creator classes to be written without knowledge of the product to be created
+- Decouples the implementation of some product or class from its use
+- Supports the 'Dependency Inversion Principle' to rely on abstractions from a higher-level and a lower-level 
+--> In this case, the concrete creator classes depend on the abstract Product, and the concrete Product subclasses rely 
+    on the abstract Product class
+
+POTENTIAL PROBLEMS WITH THE OBSERVER PATTERN:

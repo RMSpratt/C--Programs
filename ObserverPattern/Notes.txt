@@ -1,0 +1,15 @@
+TITLE: Notes About the Observer Pattern and this Implementation
+
+IMPLEMENTATION NOTES:
+- This version of the Observer pattern makes use of C#'s built-in IObserver and IObservable interfaces
+- This version of the Observer pattern expects a Class Object for the Subject
+
+PRIMARY USE(S) FOR THIS PATTERN:
+- Useful to have a multitude of class instances be aware of a shared subject 
+- Allows the subject to not care about the observers' implementation 
+
+POTENTIAL PROBLEMS WITH THE OBSERVER PATTERN:
+- Question of its value given its complexity, and considering other features exist (i.e. events)
+- Observers generally should only be subscribed to a single subject in this pattern
+- You must ensure that observers are properly de-registered when they are destroyed or no longer 
+  interested in a particular subject

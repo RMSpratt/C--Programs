@@ -1,0 +1,10 @@
+TITLE: Notes About the Abstract Factory Pattern and this Implementation
+
+IMPLEMENTATION NOTES:
+
+PRIMARY USE(S) FOR THIS PATTERN:
+- Creating a family of products or class instances through a single interface without specifying their concrete classes
+- The client can create all products through factories
+
+POTENTIAL PROBLEMS WITH THE OBSERVER PATTERN:
+- Interface for creating product factories must be modified if new products are added
