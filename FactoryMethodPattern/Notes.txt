@@ -9,5 +9,3 @@ PRIMARY USE(S) FOR THIS PATTERN:
 - Supports the 'Dependency Inversion Principle' to rely on abstractions from a higher-level and a lower-level 
 --> In this case, the concrete creator classes depend on the abstract Product, and the concrete Product subclasses rely 
     on the abstract Product class
-
-POTENTIAL PROBLEMS WITH THE OBSERVER PATTERN:

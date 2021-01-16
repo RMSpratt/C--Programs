@@ -8,6 +8,6 @@ PRIMARY USE(S) FOR THIS PATTERN:
 - Prevents an explosion of sub-classes from a base class
 - Can be used in conjunction with the Factory pattern 
 
-POTENTIAL PROBLEMS WITH THE OBSERVER PATTERN:
+POTENTIAL PROBLEMS WITH THIS PATTERN:
 - This pattern may break code dependent on a concrete type 
 - This pattern isn't designed to know what other decorators have wrapped a given component 
