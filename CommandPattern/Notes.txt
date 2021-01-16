@@ -1,0 +1,15 @@
+TITLE: Notes About the Command Pattern and this Example Implementation
+
+IMPLEMENTATION NOTES:
+- This implementation is very simple, it provides an Undo option for commands but does not support macro commands 
+- This implementation does not have a Command stack for chain undoing commands
+- This implementation does use a 'NoneCommand' to simulate a NULL object
+- Little error checking is used for validating command requests by the client, as this example is simply for demonstrating the pattern
+
+PRIMARY USE(S) FOR THIS PATTERN:
+- Useful to handle a series of commands or user inputs in one location
+- Decouples an object so that a request can be handled by something that knows how to handle it 
+- Going further, the Command objects themselves could simply implement functionality instead of delegating requests to a receiver
+
+POTENTIAL PROBLEMS WITH THIS PATTERN:
+- Potential explosion of concrete command classes
